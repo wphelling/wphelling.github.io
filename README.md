@@ -1,14 +1,11 @@
 <!DOCTYPE html>  
 <html lang="en">
-  
 <head>  
 <meta charset="utf-8">
 <meta name="author" content="John Smith">
 <meta name="description" content="Ozymandias is a sonnet by Percy Bysshe Shelley, published in 1818">
 <meta name="keywords" content="Percy Bysshe Shelley, poem, sonnet, English Romantic poetry">
 <title>Shelley: Ozymandias</title> 
-
-
 </head> 
  
 <body>
