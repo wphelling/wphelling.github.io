@@ -1,1 +1,39 @@
-# wphelling.github.io
+<!DOCTYPE html>  
+<html lang="en">
+  
+<head>  
+<meta charset="utf-8">
+<meta name="author" content="John Smith">
+<meta name="description" content="Ozymandias is a sonnet by Percy Bysshe Shelley, published in 1818">
+<meta name="keywords" content="Percy Bysshe Shelley, poem, sonnet, English Romantic poetry">
+<title>Shelley: Ozymandias</title> 
+
+
+</head> 
+ 
+<body>
+
+<h1>OZYMANDIAS</h1>
+<h2>Percy Bysshe Shelley</h2>
+
+<p>
+I met a traveller from an antique land<br>
+Who said: Two vast and trunkless legs of stone<br>
+Stand in the desert. Near them on the sand,<br>
+Half sunk, a shatter'd visage lies, whose frown<br>
+And wrinkled lip and sneer of cold command<br>
+Tell that its sculptor well those passions read<br>
+Which yet survive, stamp'd on these lifeless things,<br>
+The hand that mock'd them and the heart that fed.<br>
+And on the pedestal these words appear:<br>
+"My name is Ozymandias, king of kings:<br>
+Look on my works, ye Mighty, and despair!"<br>
+Nothing beside remains: round the decay<br>
+Of that colossal wreck, boundless and bare,<br>
+The lone and level sands stretch far away.
+</p>
+
+
+</body>  
+
+</html>  
