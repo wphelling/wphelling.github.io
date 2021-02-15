@@ -1,0 +1,53 @@
+Thanks, Alpo! I like your creativity and sense of humor; you made me smile. :)
+
+Be careful about HTML errors! See the validator results on your home page:
+
+https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fmyy.haaga-helia.fi%2F%7Ebgr653%2FOSE%2Fmodule3%2Fautobiography.html
+
+The biggest problem (but which did not break the page) was the measurement you used in the image dimensions. For example:
+
+<img src="box.png" alt="box" height="400px;" width="500px;">
+
+Should be:
+
+<img src="box.png" alt="box" height="400" width="500">
+
+You are thinking CSS, but this old image attribute just assumes pixels without using any indicator.
+
+However, in several weeks, we will learn how to do images that do not rely upon absolute pixel dimensions so that they can be used in responsive web design.
+
+And on the accomplishment page, the validator found a few things!
+
+https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fmyy.haaga-helia.fi%2F%7Ebgr653%2FOSE%2Fmodule3%2Fmystuff%2Faccomplishments.html
+
+The big thing: list is malformed. The nested list items are this:
+
+<ul class="back">on box</ul>
+
+But you need this:
+
+<ul class="back"><li>on box</li></ul>
+
+
+The accessibility editor also got you on the fact that you did not indicate a language for the pages; that would help computers parse your pages!
+
+https://wave.webaim.org/report#/http://myy.haaga-helia.fi/~bgr653/OSE/module3/autobiography.html
+
+So, this:
+
+<html>
+
+should be
+
+<html lang="en">
+
+There is one CSS error, too:
+https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fmyy.haaga-helia.fi%2F%7Ebgr653%2FOSE%2Fmodule3%2Fmystuff%2Faccomplishments.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+
+It was a simple typo!
+
+But, overall, you got it done and online! Just be sure to validate; these tools catch the mistakes our eyes cannot.
+
+Thanks for submitting. It will be great to work with you! Tell me what I can do for you, ok?
+Delete comment: Thanks, Alpo! I like your creativity and sense of humor; you made me smile. :) Be careful about HTML errors! See the validator results on your home page: https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fmyy.haaga-helia.fi%2F%7Ebgr653%2FOSE%2Fmodule3%2Fautobiography.html The biggest problem (but which did not break the page) was the measurement you used in the image dimensions. For example: <img src="box.png" alt="box" height="400px;" width="500px;"> Should be: <img src="box.png" alt="box" height="400" width="500"> You are thinking CSS, but this old image attribute just assumes pixels without using any indicator. However, in several weeks, we will learn how to do images that do not rely upon absolute pixel dimensions so that they can be used in responsive web design. And on the accomplishment page, the validator found a few things! https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fmyy.haaga-helia.fi%2F%7Ebgr653%2FOSE%2Fmodule3%2Fmystuff%2Faccomplishments.html The big thing: list is malformed. The nested list items are this: <ul class="back">on box</ul> But you need this: <ul class="back"><li>on box</li></ul> The accessibility editor also got you on the fact that you did not indicate a language for the pages; that would help computers parse your pages! https://wave.webaim.org/report#/http://myy.haaga-helia.fi/~bgr653/OSE/module3/autobiography.html So, this: <html> should be <html lang="en"> There is one CSS error, too: https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fmyy.haaga-helia.fi%2F%7Ebgr653%2FOSE%2Fmodule3%2Fmystuff%2Faccomplishments.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en It was a simple typo! But, overall, you got it done and online! Just be sure to validate; these tools catch the mistakes our eyes cannot. Thanks for submitting. It will be great to work with you! Tell me what I can do for you, ok?
+William Helling, Feb 5 at 11:02pm
